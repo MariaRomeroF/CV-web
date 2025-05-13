@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+ :root {
+      --rosa-suave: #ffe9f3;
+      --rosa-claro: #fddde6;
+      --rosa-medio: #f8b7c8;
+      --texto: #444;
+      --blanco: #fff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Quicksand", sans-serif;
+      background-color: var(--rosa-suave);
+      color: var(--texto);
+      line-height: 1.6;
+      padding: 0;
+    }
+
+    header {
+      background-color: var(--rosa-claro);
+      text-align: center;
+      padding: 3rem 1rem 2rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #b35c7c;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+      color: #8c4663;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background-color: var(--rosa-medio);
+      padding: 1rem;
+      border-radius: 0 0 12px 12px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: opacity 0.3s;
+    }
+
+    nav a:hover {
+      opacity: 0.7;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+
+     ul {
+      margin-bottom: 1.5rem;
+      padding-left: 1.5rem;
+      list-style-type :disc;
+    }
+
+     li {
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+    }
+
+     section {
+      margin-bottom: 3rem;
+    }
+
+    .sobremi h2 {
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+      color: #b35c7c;
+      border-left: 4px solid #f8b7c8;
+      padding-left: 0.5rem;
+    }
+
+    .habilidades-tecnicas {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .habilidadestecnicas h2 {
+        margin-bottom: 20px;
+      font-size: 1.8rem;
+      color: #b35c7c;
+      border-left: 4px solid #f8b7c8;
+      padding-left: 0.5rem;
+
+    }
+
+    .negrita {
+      font-weight: bold;
+    }
+
+    .habilidades-tecnicas {
+      background: var(--blanco);
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+    
+    .soft-skills {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .softskills h2 {
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+      color: #b35c7c;
+      border-left: 4px solid #f8b7c8;
+      padding-left: 0.5rem;
+    }
+
+    .soft-skills {
+      background: var(--blanco);
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+    .proyectos-section {
+      background: var(--blanco);
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    .proyectos-titulo h2 {
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+      color: #b35c7c;
+      border-left: 4px solid #f8b7c8;
+      padding-left: 0.5rem;
+    }
+
+      .idiomas-section h2 {
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+      color: #b35c7c;
+      border-left: 4px solid #f8b7c8;
+      padding-left: 0.5rem;
+    }
+
+    .idiomas {
+      background: var(--blanco);
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+  
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+
+     a {
+      color: #b35c7c;
+    }
+
+    .contacto-section h2 {
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+      color: #b35c7c;
+      border-left: 4px solid #f8b7c8;
+      padding-left: 0.5rem;
+    }
+
+    .boton-arriba {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #b35c7c;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 16px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s;
+     }
+
+    .boton-arriba:hover {
+      background-color: #b35c7c;
+     }
