@@ -51,7 +51,8 @@
     nav a {
       color: white;
       text-decoration: none;
-      font-weight: bold;
+      font-weight:bolder;
+      font-size: larger;
       transition: opacity 0.3s;
     }
 
@@ -88,14 +89,8 @@
       padding-left: 0.5rem;
     }
 
-    .habilidades-tecnicas {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 1.5rem;
-    }
-
-    .habilidadestecnicas h2 {
-        margin-bottom: 20px;
+    #habilidades-tecnicas h2 {
+      margin-bottom: 20px;
       font-size: 1.8rem;
       color: #b35c7c;
       border-left: 4px solid #f8b7c8;
